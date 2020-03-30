@@ -1,0 +1,92 @@
+body {
+    background-color: #edeeef;
+}
+
+.breadcrumb {
+    height: 10px;
+}
+
+.header {
+    height: 150px;
+    background-color: brown;
+}
+.background{
+    background-image: url(../img/tour2.jpg);
+}
+
+.logo img {
+    width: 250px;
+    height: 150px;
+    background-size: cover;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    height: 30px;
+    background-color: #335867;
+}
+
+.navbar {
+    width: 10%;
+    height: 800px;
+    background-color: #335867;
+}
+
+ul li a {
+    color: #edeeef;
+}
+
+.container {
+    display: flex;
+}
+
+.entete {
+    display: flex;
+    flex-direction: column;
+}
+
+hr {
+    height: 30px;
+    color: brown;
+}
+
+h5 {
+    color: #edeeef;
+    font-size: xx-large;
+}
+
+.icone {
+    display: flex;
+}
+
+i {
+    margin-left: 50px;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* border: 1px solid black; */
+    margin-top: 20px;
+    background-color: #547585;
+    text-align: center;
+}
+
+.container-ajout {
+    display: flex;
+    /* justify-content: center; */
+}
+
+.footer {
+    height: 150px;
+    background-color: brown;
+}
+
+
+/* @media screen and (max-width: 640px) {
+    .container {
+        flex-direction: column;
+    }
+} */
